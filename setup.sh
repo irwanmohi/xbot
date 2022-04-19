@@ -126,7 +126,7 @@ fi
 fi
 
 echo ""
-wget -q https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dependencies
+wget -q https://raw.githubusercontent.com/irwanmohi/xbot/main/dependencies
 chmod +x dependencies 
 screen -S depen ./dependencies
 rm dependencies
@@ -159,7 +159,7 @@ read answer
             else
                 echo "peler=$pp" > /root/scdomain
             fi
-        wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/cf.sh" && chmod +x cf.sh && ./cf.sh
+        wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/cf.sh" && chmod +x cf.sh && ./cf.sh
     fi
 else
 clear
@@ -177,57 +177,57 @@ read -rp "Input ur domain : " -e pp
     else
         echo "peler=$pp" > /root/scdomain
     fi
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/cf.sh" && chmod +x cf.sh && ./cf.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/cf.sh" && chmod +x cf.sh && ./cf.sh
 fi
 
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/newmenu.sh" && chmod +x /usr/bin/menu
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/ssh/ssh-vpn.sh" && chmod +x ssh-vpn.sh && screen -S sshvpn ./ssh-vpn.sh
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/newmenu.sh" && chmod +x /usr/bin/menu
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/ssh/ssh-vpn.sh" && chmod +x ssh-vpn.sh && screen -S sshvpn ./ssh-vpn.sh
 if [ "$coreselect" = "v2ray" ]; then
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/v2ray/ins-vt.sh" && chmod +x ins-vt.sh && screen -S insvt ./ins-vt.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/v2ray/ins-vt.sh" && chmod +x ins-vt.sh && screen -S insvt ./ins-vt.sh
 elif [ "$coreselect" = "xray" ]; then
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/xray/ins-xray.sh" && chmod +x ins-xray.sh && screen -S insxray ./ins-xray.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/xray/ins-xray.sh" && chmod +x ins-xray.sh && screen -S insxray ./ins-xray.sh
 fi
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/wireguard/wg.sh" && chmod +x wg.sh && screen -S wg ./wg.sh
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/sstp/sstp.sh" && chmod +x sstp.sh && screen -S sstp ./sstp.sh
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/ipsec/ipsec.sh" && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/shadowsocks/ss.sh" && chmod +x ss.sh && screen -S ss ./ss.sh
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/shadowsocks/ssr.sh" && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget -q "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/system/set-br.sh" && chmod +x set-br.sh && screen -S sbr ./set-br.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/wireguard/wg.sh" && chmod +x wg.sh && screen -S wg ./wg.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/sstp/sstp.sh" && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/ipsec/ipsec.sh" && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/shadowsocks/ss.sh" && chmod +x ss.sh && screen -S ss ./ss.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/shadowsocks/ssr.sh" && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget -q "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/system/set-br.sh" && chmod +x set-br.sh && screen -S sbr ./set-br.sh
 #extension
 clear
 sleep 1
 echo -e "[ ${green}INFO${NC} ] Downloading extension !!"
 sleep 1
-wget -q -O /usr/bin/xtls "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/xray/xtls.sh" && chmod +x /usr/bin/xtls && xtls && rm -f /usr/bin/xtls
-wget -q -O /usr/bin/setting-menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/menu_all/setting-menu.sh" && chmod +x /usr/bin/setting-menu
-wget -q -O /usr/bin/autokill-menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/menu_all/autokill-menu.sh" && chmod +x /usr/bin/autokill-menu
-wget -q -O /usr/bin/info-menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/menu_all/info-menu.sh" && chmod +x /usr/bin/info-menu
-wget -q -O /usr/bin/system-menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/menu_all/system-menu.sh" && chmod +x /usr/bin/system-menu
-wget -q -O /usr/bin/trial-menu "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/menu_all/trial-menu.sh" && chmod +x /usr/bin/trial-menu
+wget -q -O /usr/bin/xtls "https://raw.githubusercontent.com/irwanmohi/xbot/main/xray/xtls.sh" && chmod +x /usr/bin/xtls && xtls && rm -f /usr/bin/xtls
+wget -q -O /usr/bin/setting-menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/menu_all/setting-menu.sh" && chmod +x /usr/bin/setting-menu
+wget -q -O /usr/bin/autokill-menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/menu_all/autokill-menu.sh" && chmod +x /usr/bin/autokill-menu
+wget -q -O /usr/bin/info-menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/menu_all/info-menu.sh" && chmod +x /usr/bin/info-menu
+wget -q -O /usr/bin/system-menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/menu_all/system-menu.sh" && chmod +x /usr/bin/system-menu
+wget -q -O /usr/bin/trial-menu "https://raw.githubusercontent.com/irwanmohi/xbot/main/menu_all/trial-menu.sh" && chmod +x /usr/bin/trial-menu
 
 
-wget -q -O /usr/bin/kill-by-user "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/kill-by-user.sh" && chmod +x /usr/bin/kill-by-user
-wget -q -O /usr/bin/importantfile "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/toolkit.sh" && chmod +x /usr/bin/importantfile
-wget -q -O /usr/bin/status "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/status.sh" && chmod +x /usr/bin/status
-wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/autoreboot.sh" && chmod +x /usr/bin/autoreboot
-wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/limit-speed.sh" && chmod +x /usr/bin/limit-speed
-wget -q -O /usr/bin/add-host "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/add-host.sh" && chmod +x /usr/bin/add-host
-wget -q -O /usr/bin/akill-ws "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/akill-ws.sh" && chmod +x /usr/bin/akill-ws
-wget -q -O /usr/bin/autokill-ws "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/autokill-ws.sh" && chmod +x /usr/bin/autokill-ws
-wget -q -O /usr/bin/restart-service "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/restart-service.sh" && chmod +x /usr/bin/restart-service
+wget -q -O /usr/bin/kill-by-user "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/kill-by-user.sh" && chmod +x /usr/bin/kill-by-user
+wget -q -O /usr/bin/importantfile "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/toolkit.sh" && chmod +x /usr/bin/importantfile
+wget -q -O /usr/bin/status "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/status.sh" && chmod +x /usr/bin/status
+wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/autoreboot.sh" && chmod +x /usr/bin/autoreboot
+wget -q -O /usr/bin/limit-speed "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/limit-speed.sh" && chmod +x /usr/bin/limit-speed
+wget -q -O /usr/bin/add-host "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/add-host.sh" && chmod +x /usr/bin/add-host
+wget -q -O /usr/bin/akill-ws "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/akill-ws.sh" && chmod +x /usr/bin/akill-ws
+wget -q -O /usr/bin/autokill-ws "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/autokill-ws.sh" && chmod +x /usr/bin/autokill-ws
+wget -q -O /usr/bin/restart-service "https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/restart-service.sh" && chmod +x /usr/bin/restart-service
  
-wget -q -O /usr/bin/installbot "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/bot_panel/installer.sh" && chmod +x /usr/bin/installbot
-wget -q -O /usr/bin/bbt "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/bot_panel/bbt.sh" && chmod +x /usr/bin/bbt
+wget -q -O /usr/bin/installbot "https://raw.githubusercontent.com/irwanmohi/xbot/main/bot_panel/installer.sh" && chmod +x /usr/bin/installbot
+wget -q -O /usr/bin/bbt "https://raw.githubusercontent.com/irwanmohi/xbot/main/bot_panel/bbt.sh" && chmod +x /usr/bin/bbt
 
 sleep 2
 echo -e "[ ${green}INFO${NC} ] Installing Successfully!!"
 sleep 1
 echo -e "[ ${green}INFO${NC} ] Dont forget to reboot later"
 #=======[ end ] ======
-wget -q -O /usr/bin/xp https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/xp.sh && chmod +x /usr/bin/xp
-wget -q -O /usr/bin/info https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/dll/info.sh && chmod +x /usr/bin/info
+wget -q -O /usr/bin/xp https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/xp.sh && chmod +x /usr/bin/xp
+wget -q -O /usr/bin/info https://raw.githubusercontent.com/irwanmohi/xbot/main/dll/info.sh && chmod +x /usr/bin/info
 
-wget -q -O /usr/bin/.ascii-home "https://raw.githubusercontent.com/ahmednajmudeen/tetbot/main/resources/ascii-home"
+wget -q -O /usr/bin/.ascii-home "https://raw.githubusercontent.com/irwanmohi/xbot/main/resources/ascii-home"
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
 
