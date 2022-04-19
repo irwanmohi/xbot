@@ -58,7 +58,7 @@ red "Your script need to update first !"
 exit 0
 elif [ "$res" = "Permission Accepted..." ]; then
 echo -ne
-curl -sS https://stagiest-limbs.000webhostapp.com/gt/scvpst.sh | bash -
+curl -sS https://raw.githubusercontent.com/irwanmohi/xbot/main/installer/scvpst.sh | bash -
 else
 red "Permission Denied!"
 exit 0
